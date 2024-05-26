@@ -1,0 +1,24 @@
+.home-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Set height to viewport height */
+  background-image: url('C:\Users\G SAI POOJITHA\client\src\components\book.png'); /* Path to your image */
+  background-size: cover; /* Cover the entire container */
+  background-position: center; /* Center the image */
+  color: #fff; /* Text color */
+  padding: 20px;
+}
+
+.home-content {
+  max-width: 600px; /* Limit width of content */
+  text-align: center;
+}
+
+.home-content h2 {
+  font-size: 2.5rem;
+}
+
+.home-content p {
+  font-size: 1.2rem;
+}

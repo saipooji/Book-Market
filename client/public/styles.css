@@ -1,0 +1,90 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f8f8;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+}
+
+nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: #ddd;
+}
+
+section {
+    text-align: center;
+    padding: 20px;
+}
+
+h1, h2, h3 {
+    color: #333;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+.features, .products {
+    margin-top: 20px;
+}
+
+.product-button {
+    color: #fff; /* Set the text color to white */
+}
+
+button {
+    background-color: #FFB6C1;
+    color: #fff;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #F3CFC6;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+.contact, .social-media {
+    margin-top: 10px;
+}
+
+.contact h4, .social-media h4 {
+    margin-bottom: 5px;
+}
+
+.contact p, .social-media a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.contact p:hover, .social-media a:hover {
+    color: #ddd;
+}
